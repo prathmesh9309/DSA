@@ -1,0 +1,22 @@
+How to solve a problem
+
+1. Understand
+2. Input
+3. Solution
+4. Code
+
+
+Flowchart
+
+start and end in oval
+input and output in parallelogram
+any processes in rectangle
+all these are connected through the arrow which
+indicates the Flow
+Diamond for condition check
+
+
+
+Pseudo-Code
+
+Simple english explaining the execution of the code or program 
