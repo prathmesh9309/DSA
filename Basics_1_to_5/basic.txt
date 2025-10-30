@@ -20,3 +20,6 @@ Diamond for condition check
 Pseudo-Code
 
 Simple english explaining the execution of the code or program 
+
+
+Be consistent throughout the DSA journey
