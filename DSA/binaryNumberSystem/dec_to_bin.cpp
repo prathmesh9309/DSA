@@ -1,20 +1,19 @@
 #include <iostream>
 using namespace std;
-int decimal_to_binary(int n){
+int deci_to_bin(int n){
     int ans = 0;
     int pow = 1;
-    int number = n;
-    while(number > 0){
-        int rem = number % 2;
-        number /= 2;
+    while(n > 0){
+        int rem = n % 2;
+        n /= 2;
         ans += rem * pow;
         pow *= 10;
     }
-    cout << "Binary of " << n << " is " << ans << endl;
+    cout << "The binary number is " << ans << endl;
 }
 int main() {
     for(int i = 1 ; i <= 10 ; i++){
-        decimal_to_binary(i);
+        deci_to_bin(i);
     }
     cout << endl;
     return 0;
