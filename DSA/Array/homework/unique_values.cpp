@@ -12,7 +12,7 @@ int main() {
                 break;
             }
         }
-        if(found){
+        if(!found){
             cout << arr[i] << endl;
         }
     }
